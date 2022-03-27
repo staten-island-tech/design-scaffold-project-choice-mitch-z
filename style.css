@@ -43,6 +43,8 @@ nav{
     height: 3px;
     background-color: white;
     margin: 5px;
+    transition: all 0.3s ease;
+
 }
 @media screen and (max-width:1024px){
     .nav-links{
@@ -88,6 +90,18 @@ nav{
     }
 }
 
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+
+}
+.toggle .line2{
+    opacity: 0;
+    
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    
+}
 
 body{
     background-color: #D3D3D3
