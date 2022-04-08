@@ -136,6 +136,8 @@ nav{
 }
 
 body{
+    height: 100%;
+    
     background-color: #e4e5f1;
     transition: background 0.2s linear;
 }
@@ -143,3 +145,6 @@ body{
 body.dark {
     background-color: #092c3e
 }
+
+
+
