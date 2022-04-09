@@ -148,3 +148,17 @@ body.dark {
 
 
 
+
+
+.MainIMG{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 323px;
+    width: 1302px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+
