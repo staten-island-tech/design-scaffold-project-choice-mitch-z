@@ -4,6 +4,8 @@ module.exports = function(eleventyconfig){
     eleventyconfig.addPassthroughCopy("src/Blog.js");
     eleventyconfig.addPassthroughCopy("src/media")
     eleventyconfig.addPassthroughCopy("src/Review1.html");
+    eleventyconfig.addPassthroughCopy("src/Review2.html");
+    eleventyconfig.addPassthroughCopy("src/about.html");
     return{
         dir:{
             input: "src",

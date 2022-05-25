@@ -150,6 +150,14 @@ body.dark {
 }
 
 body.dark h1 {
+    color: #da6d34;
+}
+
+body.dark h2 {
+    color: #da6d34;
+}
+
+body.dark p{
     color: #fff;
 }
 
@@ -188,6 +196,10 @@ header{
     -moz-box-shadow: 0 0 10px #ccc;
       -webkit-box-shadow: 0 0 10px #ccc;
       box-shadow: 0 0 10px #ccc;
+}
+
+body.dark h3{
+    color: #da6d34;
 }
 
 
