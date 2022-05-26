@@ -86,6 +86,12 @@ nav{
     .nav-links{
         width: 60%;
     }
+    .row{
+        width: 50%;
+    }
+
+    
+    
 }
 @media screen and (max-width:768px){
     body {
@@ -109,6 +115,9 @@ nav{
     }
     .burger{
         display: block;
+    }
+    .row{
+        width: 50%;
     }
 }
 .nav-active {
@@ -201,6 +210,5 @@ header{
 body.dark h3{
     color: #da6d34;
 }
-
 
 
